@@ -1,0 +1,16 @@
+{
+	"name": "SalesForceStudent",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Salesforce",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SalesforceObject",
+		"schema": [],
+		"typeProperties": {
+			"objectApiName": "Student__c"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
