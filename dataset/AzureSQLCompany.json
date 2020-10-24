@@ -1,0 +1,199 @@
+{
+	"name": "AzureSQLCompany",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MyDemoDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "SQL"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CompanyIntID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CompanyName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Department",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CompanyPhone",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CompanyFax",
+				"type": "nvarchar"
+			},
+			{
+				"name": "OtherPhoneCaption",
+				"type": "nvarchar"
+			},
+			{
+				"name": "OtherPhone",
+				"type": "nvarchar"
+			},
+			{
+				"name": "WebPage",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ReferredBy",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DBNum",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SICorNAICSCode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Address1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Address2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Address3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "City",
+				"type": "nvarchar"
+			},
+			{
+				"name": "State",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ZipCode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Country",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Description",
+				"type": "ntext"
+			},
+			{
+				"name": "Categories",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Groups",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Owners",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UserIDs",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Private",
+				"type": "bit"
+			},
+			{
+				"name": "CreateDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "EditDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "MergeDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "Archived",
+				"type": "bit"
+			},
+			{
+				"name": "UserField1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UserField2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UserField3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UserField4",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UserField5",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UserField6",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UserField7",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UserField8",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UserField9",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UserField10",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Notes",
+				"type": "ntext"
+			},
+			{
+				"name": "Field1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Field2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Field3",
+				"type": "ntext"
+			},
+			{
+				"name": "uuCoUserIDs",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Companies"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
